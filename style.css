@@ -1,0 +1,93 @@
+body {
+    background-color: #F9F6F2;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  h1 {
+      color: #b2d3be;
+      font-size: 32px;
+      line-height: 50px;
+  }
+
+
+  h2 {
+      color: #b2d3be;
+      font-size: 20px;
+      line-height: 50px;
+  }
+
+  a {
+    color:#bbbbbb;
+    text-decoration:none;
+    font-weight:bold;
+  }
+
+  a:hover {
+     color:aeeff0;
+  }
+
+.card-white {
+    background: white;
+    border: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 50px;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    box-shadow: 10px;
+    margin: 40px auto;
+}
+
+.myself {
+    border-radius: 75%;
+    width: 150px;
+    height:150px;
+}
+
+.follow {
+    background: white;
+    border: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 50px;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    box-shadow: 10px;
+    margin: 40px auto;
+  }
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+ .list-inline i {
+  font-size: 50px;
+ }
+
+
+.button {
+  background-color: blue;
+  width: 40px;
+  height: 20px;
+  padding: 6px;
+  color: white;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: purple;
+}
